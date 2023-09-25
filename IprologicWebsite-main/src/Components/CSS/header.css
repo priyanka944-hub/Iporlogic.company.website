@@ -1,14 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&family=Poppins:wght@200&display=swap');
 .Main-header{
-background-color: black;
+background-color:#222328;
+font-family: 'Edu SA Beginner', cursive;
+font-family: 'Poppins', sans-serif;
 }
 .Main-header .sub-header{
-    background-color: black;
+    background-color:#222328;
     color: gray;
     height: 60px;
 }
-.Main-header .sub-header .row{
-    margin-top: 10px;
-}
+
 .Main-header .sub-header .icon{
     margin: 10px;
     color: gray;
@@ -24,7 +26,7 @@ background-color: black;
     text-align: start;
 }
 .Main-header .menubar{
-    background-color: black;
+    background-color:#222328;
     color: white;
     height: 80px;
 }
@@ -55,5 +57,111 @@ background-color: black;
 .Main-header .menubar .row .col-7 .col-5 button:hover{
     background-color: red;
 }
+.Main-header .brand-name
+{
+    color:white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.Main-header .brand-name .brand-one:hover{
+    transition: 2s;
+  color:#F75757;
+}
+.Main-header .menu-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:white;
+    margin:0px 100px 0px 100px;
+    text-transform:uppercase;
+}
 
 
+nav#menu-area {
+	margin: 0 auto;
+	padding: 0 10px;
+	position: relative;
+	width: 900px;
+}
+ nav#menu-area ul li {
+	float: left;
+	position: relative;
+	font-size: 15px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 120px;
+	text-align: center;
+	text-transform: uppercase;
+}
+nav#menu-area ul li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	line-height: 60px;
+}
+ nav#menu-area ul li:hover>a {
+	background: #555555;
+    transition: 2s;
+    color:#F75757;
+}
+nav#menu-area ul li ul.submenu-1 {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 0px;
+	top: 60px;
+	background: #222;
+	width: 180px;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s ease-out, visibility 0.1s 0.1s linear;
+}
+ nav#menu-area ul li ul.submenu-1 li {
+	border: none;
+	border-bottom: 1px solid #ccc;
+	clear: both;
+	margin-top: -15px;
+	padding: 0;
+	width: 180px;
+	transition: opacity 0.15s 0.15s ease-out, margin 0.3s 0.1s ease-out;
+}
+ nav#menu-area ul li:hover ul.submenu-1 {
+	opacity: 1;
+	visibility: visible;
+}
+ nav#menu-area ul li:hover ul.submenu-1 li {
+	margin-top: 0;
+	opacity: 1;
+}
+ nav#menu-area ul li ul.submenu-1 li ul.submenu-2 {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 61px;
+	top: 0px;
+	background: #222;
+	width: 180px;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.2s 0.01s ease-in-out, left 0.2s 0.1s ease-out, visibility 0.1s 0.1s linear;
+}
+ul.submenu-1 li ul.submenu-2 li {
+	border: none;
+	border-bottom: 1px solid #ccc;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: 180px;
+	opacity: 1;
+}
+ nav#menu-area ul li ul.submenu-1 li:hover ul.submenu-2 {
+	opacity: 1;
+	left: 180px;
+	visibility: visible;
+}

@@ -2,35 +2,31 @@ import React from "react";
 import "./CSS/header.css";
 import { Facebook, Github, Mailbox2, Twitter } from "react-bootstrap-icons";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import Home from "./Home";
-import Servieces from "./Servieces";
-import Portfolio from "./Portfolio";
-import Blog from "./Blog";
-import Blogslidebar from './Blogslidebar'
-import Contact from "./Contact";
-import OurCompany from "./OurCompany";
-import { DownOutlined, SmileOutlined } from "@ant-design/icons";
-import { Dropdown, Space } from "antd";
-import Blogsingle from "../Blogsingle";
-const items = [
-  {
-    key: "1",
-    danger: true,
-    label: (<Link to={'/blog'}>Blog Grid</Link>),
-  },
-  {
-    key: "2",
-    danger: true,
-    label: (<Link to={'/blogsidebar'}>Blog sidebar</Link>),
+import Home from "./Pages/Home";
 
-  },
-  {
-    key: "3",
-    danger: true,
-    label: (<Link to={'/blogsingle'}>Blog Single</Link>),
-  },
+import OurCompany from "./Pages/AboutPages/OurCompany";
+import Pricing from "./Pages/AboutPages/Pricing";
+import SubMenu01 from "./Pages/AboutPages/Submenu01";
+import SubMenu02 from "./Pages/AboutPages/Submenu02";
 
-];
+import Services from "./Pages/Services";
+import Portfolio from "./Pages/Portfolio";
+
+
+import BlogGrid from "./Pages/BlogPages/BlogGrid";
+import BlogSideBar  from "./Pages/BlogPages/BlogSidebar";
+import BlogSingle from "./Pages/BlogPages/BlogSingle";
+import BSubmenu01 from "./Pages/BlogPages/BSubmenu01";
+import BSubmenu02 from "./Pages/BlogPages/BSubmenu02";
+
+import Career from "./Pages/Careers";
+import Contact from "./Pages/Contact.Jsx";
+
+
+
+
+
+
 
 export default function Header() {
   return (
@@ -66,107 +62,74 @@ export default function Header() {
                 </div>
               </div>
             </div>
+            <hr/>
           </div>
-          <div className="menubar">
-            <div className="row">
-              <div className="col-5">
-                <h3>
-                  Iprologic <span className="text-danger">Solutions</span>
-                </h3>
-              </div>
-              <div className="col-7">
-                <div className="row">
-                  <div className="col-1">
-                    <Link to="/">HOME</Link>
-                  </div>
-                  <div className="col-1">
-                    <div className="dropdown">
-                      <p
-                        className="dropdown-toggle"
-                        href="#"
-                        id="dropdownMenuLink"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        ABOUT
-                      </p>
-                      <ul
-                        className="dropdown-menu"
-                        aria-labelledby="dropdownMenuLink"
-                      >
-                        <li>
-                          <Link to="/ourcompany">OUR COMPANY</Link>
-                        </li>
-                        <li>
-                          <a className="dropdown-item" href="#">
-                            PRICING
-                          </a>
-                        </li>
-                        <li>
-                          <a className="dropdown-item dropdown-toggle" href="#">
-                            SUB MENU
-                          </a>
-
-                          <ul
-                            className="dropdown-menu"
-                            aria-labelledby="dropdownMenuLink"
-                          >
-                            <li>
-                              <a className="dropdown-item" href="#">
-                                SUB MENU1
-                              </a>
-                            </li>
-                            <li>
-                              <a className="dropdown-item" href="#">
-                                SUB MENU2
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="col-1">
-                    <Link to="/servieces">SERVIECES</Link>
-                  </div>
-                  <div className="col-1">
-                    <Link to="/portfolio">PORTFOLIO</Link>
-                  </div>
-                  <div className="col-1">
-
-                      <Dropdown
-                        menu={{
-                          items,
-                        }}
-                      >
-                        <a onClick={(e) => e.preventDefault()}>
-                          <Space>
-                           Blog
-                            <DownOutlined />
-                          </Space>
-                        </a>
-                      </Dropdown>
-                  </div>
-                  <div className="col-1">
-                    <Link to="/contact">CONTACT</Link>
-                  </div>
-                  <div className="col-5">
-                    <button>GET A QUOTE</button>
-                  </div>
-                </div>
-              </div>
+         <div className="menu-item">
+            <div className="brand-name"><span className="brand-one">Ipro</span><span className="brand-two">logic.</span></div>
+            <div className="menus">
+            <nav id="menu-area">
+				<ul>
+					<li><Link to="/">Home</Link></li>
+					<li><Link to="/about">About</Link>
+          <ul className="submenu-1">
+							<li><Link to="/our-company">Our Company</Link></li>
+							<li><Link to="/pricing-details">Pricing</Link></li>
+							<li><Link to="/submenu">SubMenu</Link>
+								<ul className="submenu-2">
+									<li><Link to="/sub-menu-1">Sub menu 01</Link></li>
+									<li><Link to="/sub-menu-1">Sub menu 02</Link></li>									
+								</ul>
+							</li>
+						</ul>
+          </li>
+					<li><Link to="/servieces">Services</Link></li>
+					<li><Link to="/portfolio">Portfolio</Link></li>
+          <li><Link to="/blog">Blog</Link>
+          <ul className="submenu-1">
+							<li><Link to="/blog-grid">Blog Grid</Link></li>
+							<li><Link to="/blog-side-bar">Blog Side bar</Link></li>
+							<li><Link to="/blog-single">Blog Single</Link></li>
+              <li><Link to="/submenu-blog">Sub Menu</Link>
+								<ul className="submenu-2">
+									<li><Link to="/submenu-blog01">Sub menu 01</Link></li>
+									<li><Link to="/submenu-blog02">Sub menu 02</Link></li>									
+								</ul>
+							</li>
+						</ul>
+							</li>
+					<li><Link to="/careers">Careers</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+				</ul>
+			</nav>
             </div>
-          </div>
+         </div>
         </div>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/servieces" element={<Servieces />} />
+          <Route path="/" exact element={<Home />} />
+         
+             {/* dropdowns in about */}
+             <Route path="/our-company"  element={<OurCompany />} />
+             <Route path="/pricing-details"  element={<Pricing />} />
+             <Route path="/submenu01"  element={<SubMenu01 />} />
+             <Route path="/submenu01"  element={<SubMenu02 />} />
+
+          <Route path="/servieces" element={<Services />} />
+
+
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/blog" element={<Blog />} />
+
+
+        
+              {/* Blog Pages */}
+              <Route path="/blog-grid" element={<BlogGrid />}/>
+							<Route path="/blog-side-bar"  element={<BlogSideBar />}/>
+							<Route path="/blog-single"  element={<BlogSingle />}/>
+              <Route path="/submenu-blog-01"  element={< BSubmenu01/>}/>
+              <Route path="/submenu-blog-02"  element={< BSubmenu02/>}/>
+
+          <Route path="/career" element={<Career />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/ourcompany" element={<OurCompany />} />
-          <Route path={"/blogsidebar"} element={<Blogslidebar/>}/>
-          <Route path={"/blogsingle"} element={<Blogsingle/>}/>
+         
        
         </Routes>
       </BrowserRouter>

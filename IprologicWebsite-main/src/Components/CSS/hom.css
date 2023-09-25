@@ -1,0 +1,311 @@
+.mainHome {
+  width: 100%;
+}
+.mainHome .Home {
+  background-image: url(../Assets/home_bg.jpg);
+  background-size: cover;
+  height: 850px;
+  width: 100%;
+}
+.mainHome .Home .head {
+  text-align: left;
+  color: white;
+  padding: 250px 200px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.mainHome .Home .head h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+.mainHome .Home .head .btn {
+  background-color: rgb(249, 83, 83);
+  padding: 10px;
+  width: 150px;
+  border-radius: 50px;
+  color: white;
+  margin-top: 30px;
+  font-weight: 600;
+}
+.mainHome .Home .head .btn:hover {
+  background-color: red;
+}
+.mainHome .cards {
+  text-align: left;
+  padding: 100px 200px;
+}
+.mainHome .cards .para {
+  font-size: 25px;
+  font-weight: 700;
+  color: blue;
+}
+.mainHome .cards .head {
+  font-weight: 700;
+}
+.mainHome .cards .first {
+  margin-top: 50px;
+}
+.mainHome .cards .first .icon1 {
+  color: blue;
+  font-size: 50px;
+  margin: 20px;
+}
+.mainHome .cards .first .cont {
+  margin: 20px;
+}
+.mainHome .second .image {
+  width: 800px;
+}
+.mainHome .second .team {
+  text-align: left;
+  padding: 0px 200px;
+}
+.mainHome .second .team .para {
+  color: blue;
+}
+.mainHome .second .team .head {
+  font-weight: 700;
+  font-size: 40px;
+}
+.mainHome .second .team .row {
+  margin-top: 30px;
+}
+.mainHome .second .team .row .icon2 {
+  color: blue;
+  font-size: 50px;
+}
+.mainHome .second .team .row .head {
+  font-size: 30px;
+}
+.mainHome .second .team .row .paras {
+  margin-top: 30px;
+  font-size: 19px;
+  color: rgb(132, 130, 130);
+}
+.mainHome .second .team .row .btns {
+  width: 200px;
+  margin-top: 30px;
+  padding: 15px;
+  background-color: rgb(48, 48, 248);
+  color: white;
+  border-radius: 50px;
+  border: none;
+}
+.mainHome .second .team .row .btns:hover {
+  background-color: blue;
+}
+.mainHome .third {
+  margin: 100px 0px;
+}
+.mainHome .third .num1 {
+  text-align: right;
+}
+.mainHome .third .num1 .head {
+  font-size: 50px;
+}
+.mainHome .third .num1 .para {
+  color: gray;
+}
+.mainHome .third .num2 .head {
+  font-size: 50px;
+}
+.mainHome .third .num2 .head .sub {
+  font-size: 25px;
+}
+.mainHome .third .num2 .para {
+  color: gray;
+}
+.mainHome .third .num3 {
+  text-align: left;
+}
+.mainHome .third .num3 .head {
+  font-size: 50px;
+}
+.mainHome .third .num3 .para {
+  color: gray;
+}
+.mainHome .servieces {
+  padding: 100px 200px;
+}
+.mainHome .servieces .para {
+  color: blue;
+  font-size: 20px;
+}
+.mainHome .servieces .row {
+  margin-top: 50px;
+}
+.mainHome .servieces .web .icon1 {
+  font-size: 50px;
+  color: gray;
+}
+.mainHome .servieces .web .paras {
+  text-align: left;
+}
+.mainHome .servieces .web .paras p {
+  margin-top: 20px;
+  font-size: 20px;
+  color: gray;
+}
+.mainHome .create {
+  background-image: url(../Assets/home_bg2.jpg);
+  background-attachment: fixed;
+  height: 700px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.mainHome .create .sub {
+  padding: 100px;
+}
+.mainHome .create .sub .card {
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  text-align: left;
+  padding: 50px;
+  margin-left: 130px;
+}
+.mainHome .create .sub .card .para {
+  color: blue;
+}
+.mainHome .create .sub .card .paras {
+  color: gray;
+}
+.mainHome .create .sub .card .icon {
+  color: blue;
+  font-size: 25px;
+}
+.mainHome .client {
+  margin-top: 100px;
+  text-align: left;
+  padding: 0px 200px;
+  font-size: 20px;
+}
+.mainHome .client .para {
+  color: blue;
+}
+.mainHome .client .carousel {
+  margin-top: 50px;
+}
+.mainHome .latest {
+  width: 100%;
+  margin-top: 100px;
+  background-image: url(../Assets/home_bg3.jpg);
+  height: 1000px;
+}
+.mainHome .latest .article {
+  height: 1000px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 100px 200px;
+}
+.mainHome .latest .article .subarticle p {
+  color: blue;
+}
+.mainHome .latest .article .subarticle h2 {
+  color: white;
+  font-size: 40px;
+}
+.mainHome .latest .article .row {
+  margin-top: 50px;
+}
+.mainHome .latest .article .row .col-4 .card {
+  background-color: transparent;
+  color: white;
+}
+.mainHome .latest .article .row .col-4 .card .card-text {
+  color: gray;
+  font-size: 25px;
+}
+.mainHome .latest .article .row .col-4 .card .btn {
+  color: white;
+  border: 2px solid blue;
+  border-radius: 50px;
+  margin-top: 30px;
+  padding: 15px;
+}
+.mainHome .latest .article .row .col-4 .card .btn:hover {
+  background-color: blue;
+}
+.mainHome .entrust {
+  position: relative;
+}
+.mainHome .entrust .card-header {
+  position: relative;
+  width: 70%;
+  bottom: 80px;
+  left: 200px;
+  height: 250px;
+  background-color: rgb(252, 252, 252);
+  text-align: left;
+}
+.mainHome .entrust .card-header .row {
+  padding: 50px;
+}
+.mainHome .entrust .card-header .row .col-8 p {
+  color: blue;
+  font-size: 25px;
+}
+.mainHome .entrust .card-header .row .col-4 .btn {
+  color: blue;
+  border: 2px solid blue;
+  border-radius: 50px;
+  margin-top: 30px;
+  padding: 15px;
+  width: 200px;
+}
+.mainHome .entrust .card-header .row .col-4 .btn:hover {
+  background-color: blue;
+  color: white;
+}
+.mainHome .last {
+  padding: 100px 200px;
+}
+.mainHome .last .row .bos {
+  text-align: left;
+}
+.mainHome .last .row .bos h4 {
+  margin: 20px 0px;
+  font-size: 30px;
+}
+.mainHome .last .row .bos p {
+  font-size: 20px;
+}
+.mainHome .last .row .bos p:hover {
+  color: blue;
+}
+.mainHome .last .row .boss {
+  text-align: left;
+}
+.mainHome .last .row .boss h4 {
+  margin: 20px 0px;
+  font-size: 30px;
+}
+.mainHome .last .row .boss p {
+  font-size: 20px;
+  color: gray;
+}
+.mainHome .last .row .boss .btn {
+  margin-top: 20px;
+  background-color: rgb(59, 59, 254);
+  color: white;
+  border: none;
+}
+.mainHome .last .row .boss .btn:hover {
+  background-color: blue;
+}
+.mainHome .last .row .boo {
+  text-align: left;
+}
+.mainHome .last .row .boo h4 {
+  margin: 20px 0px;
+  font-size: 30px;
+}
+.mainHome .last .row .boo h4 span {
+  color: blue;
+}
+.mainHome .last .row .boo p {
+  font-size: 25px;
+}
+.mainHome .last .row .boo p:hover {
+  color: blue;
+}
+.mainHome .last .row .boo h5 {
+  color: blue;
+}/*# sourceMappingURL=hom.css.map */

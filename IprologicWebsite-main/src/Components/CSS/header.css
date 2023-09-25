@@ -1,0 +1,59 @@
+.Main-header{
+background-color: black;
+}
+.Main-header .sub-header{
+    background-color: black;
+    color: gray;
+    height: 60px;
+}
+.Main-header .sub-header .row{
+    margin-top: 10px;
+}
+.Main-header .sub-header .icon{
+    margin: 10px;
+    color: gray;
+    font-size: 20px;
+}
+.Main-header .sub-header .icon:hover{
+    color: red;
+}
+.Main-header .sub-header .row .call{
+    text-align: end;
+}
+.Main-header .sub-header .row .mail{
+    text-align: start;
+}
+.Main-header .menubar{
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+.Main-header .menubar .row{
+    margin-top: 20px;
+}
+.Main-header .menubar .row .col-5:hover{
+    color: red;
+}
+.Main-header .menubar .row .col-7 .col-1 Link{
+    margin-left: 13px;
+    text-decoration: none;
+    color: white ;
+}
+.Main-header .menubar .row .col-7 .col-1:hover{
+    color: red;
+}
+.Main-header .menubar .row .col-7 .col-5{
+    text-align: start;   
+}
+.Main-header .menubar .row .col-7 .col-5 button{
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.Main-header .menubar .row .col-7 .col-5 button:hover{
+    background-color: red;
+}
+
+

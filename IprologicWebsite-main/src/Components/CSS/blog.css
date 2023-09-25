@@ -1,0 +1,39 @@
+.blog-home .blog-container {
+  background-image: url(../Assets/home_bg.jpg);
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+}
+.blog-home .blog-container .background-blog {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blog-home .blog-container .background-blog h1 {
+  font-size: 60px;
+}
+.blog-home .bottom-blog {
+  background-color: #f5f8f9;
+}
+.blog-home .bottom-blog .blog-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+.blog-home .bottom-blog .blog-cards h4 {
+  cursor: pointer;
+}
+.blog-home .bottom-blog .blog-cards h4:hover {
+  color: red;
+}
+.blog-home .bottom-blog .blog-card-info {
+  background-color: #f5f8f9;
+  width: 80%;
+  margin: auto;
+}/*# sourceMappingURL=blog.css.map */

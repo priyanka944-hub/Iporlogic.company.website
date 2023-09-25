@@ -1,0 +1,381 @@
+.mainHome{
+    width: 100%;
+    .Home{
+        background-image: url(../Assets/home_bg.jpg);
+        background-size: cover;
+        height: 850px;
+        width: 100%;
+          
+        .head{
+            text-align: left;
+            color: white;
+            padding: 250px 200px;
+            background-color:rgba(0, 0, 0, 0.4);
+
+            h1{
+                font-size: 70px;
+                font-weight: 700;
+            }
+
+            .btn{
+                background-color: rgb(249, 83, 83);
+                padding: 10px;
+                width: 150px;
+                border-radius: 50px;
+                color: white;
+                margin-top: 30px;
+                font-weight: 600;
+            }
+            .btn:hover{
+                background-color: red;
+            }
+        }
+       
+    }
+    .cards{
+        text-align: left;
+        padding: 100px 200px;
+
+        .para{
+            font-size: 25px;
+            font-weight: 700;
+            color: blue;
+        }
+
+        .head{
+            font-weight: 700;
+            
+        }
+        .first{
+           
+            margin-top: 50px;
+
+            .icon1{
+                color: blue;
+                font-size: 50px;
+                margin: 20px;
+            }
+            .cont{
+                margin: 20px;
+            }
+        }
+        
+    }
+
+    .second{
+        
+        .image{
+            width: 800px;
+        }
+        .team{
+            text-align: left;
+            padding: 0px 200px;
+            
+            .para{
+                color: blue;
+            }
+            .head{
+                font-weight: 700;
+                font-size: 40px;
+            }
+            .row{
+                margin-top: 30px;
+                
+                .icon2{
+                    color: blue;
+                    font-size: 50px;
+                }
+                .head{
+                    font-size: 30px;
+                }
+                .paras{
+                    margin-top: 30px;
+                    font-size: 19px;
+                    color: rgb(132, 130, 130);
+                }
+                .btns{
+                    width: 200px;
+                    margin-top: 30px;
+                    padding: 15px;
+                    background-color: rgb(48, 48, 248);
+                    color: white;
+                    border-radius: 50px;
+                    border: none;
+                }
+                .btns:hover{
+                    background-color: blue;
+                }
+            }       
+        }
+    }
+
+    .third{
+
+        margin: 100px 0px;
+        .num1{
+            text-align: right;
+            .head{
+                font-size: 50px;
+            }
+            .para{
+                color: gray;
+            }
+           
+        }
+        .num2{
+            
+            .head{
+                font-size: 50px;
+                .sub{
+                    font-size: 25px;
+                }
+            }
+            .para{
+                color: gray;
+            }
+           
+        }
+        .num3{
+            text-align: left;
+            .head{
+                font-size: 50px;
+            }
+            .para{
+                color: gray;
+            }
+           
+        }
+        
+    }
+
+    .servieces{
+        padding: 100px 200px;
+        .para{
+            color: blue;  
+            font-size: 20px; 
+        }
+            .row{
+
+                margin-top: 50px;
+            }
+        .web{
+
+           
+            .icon1{
+                font-size: 50px;
+                color: gray;
+            }
+            .paras{
+                text-align: left;
+
+                p{
+                    margin-top: 20px;
+                    font-size: 20px;
+                    color: gray;
+                }
+            }
+        }
+    }
+
+    .create{
+        
+        background-image: url(../Assets/home_bg2.jpg);
+        background-attachment: fixed;
+        height: 700px;
+        background-color:rgba(0, 0, 0, 0.4);
+        .sub{
+            padding: 100px;
+            .card{
+            
+                width: 500px;
+                height: 400px;
+                background-color: white;
+                text-align: left;
+                padding: 50px;
+                margin-left: 130px;
+
+
+                .para{
+                    color: blue;
+                }
+
+                .paras{
+                    color: gray;
+                }
+                .icon{
+                    color: blue;
+                    font-size: 25px;
+                }
+            }
+        }
+        
+    }
+
+
+    .client{
+        margin-top: 100px;
+        text-align: left;
+        padding: 0px 200px;
+        font-size: 20px;
+        .para{
+            color: blue;
+        }
+
+        .carousel{
+
+            margin-top: 50px;
+           
+        }
+    }
+
+    .latest{
+        width: 100%;
+        margin-top: 100px;
+        background-image: url(../Assets/home_bg3.jpg);
+        height: 1000px;
+
+        .article{
+            height: 1000px;
+            background-color:rgba(0, 0, 0, 0.8);
+            padding: 100px 200px;
+
+            .subarticle{
+                p{
+                    color: blue;
+                }
+                h2{
+                    color: white;
+                    font-size: 40px;
+                }
+            }
+            .row{
+                
+                margin-top: 50px;
+                .col-4{
+                    
+                    .card{
+                      background-color: transparent;
+                      color: white;
+                      .card-text{
+                        color: gray;
+                        font-size: 25px;
+                      }
+                      .btn{
+                        color: white;
+                        border: 2px solid blue;
+                        border-radius: 50px;
+                        margin-top: 30px;
+                        padding:15px;
+                      }
+                      .btn:hover{
+                        background-color: blue;
+                      }
+                    }
+
+                }
+            }
+
+        }
+
+
+        
+    }
+
+    .entrust{
+        position: relative;
+        
+        .card-header{
+           position: relative;
+            width: 70%;
+            bottom: 80px;
+            left: 200px;
+            height: 250px;
+            background-color: rgb(252, 252, 252);
+            text-align: left;
+            .row{
+
+                padding: 50px;
+                .col-8{
+                    p{
+                        color: blue;
+                        font-size: 25px;
+                    }
+                }
+                .col-4{
+                    .btn{
+                        color:blue;
+                        border: 2px solid blue;
+                        border-radius: 50px;
+                        margin-top: 30px;
+                        padding:15px;
+                        width: 200px;
+                      }
+                      .btn:hover{
+                        background-color: blue;
+                        color: white;    
+                      }
+                }
+            }
+           
+        }
+    }
+
+    .last{
+        padding: 100px 200px;
+        .row{
+            .bos{
+                text-align: left;
+                h4{
+                    margin: 20px 0px;
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 20px;
+                }
+                p:hover{
+                    color: blue;
+                }
+            }
+            .boss{
+                text-align: left;
+                h4{
+                    margin: 20px 0px;
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 20px;
+                    color: gray;
+                }
+                .btn{
+                    margin-top: 20px;
+                    background-color: rgb(59, 59, 254);
+                    color: white;
+                    border: none;
+                }
+                .btn:hover{
+                    background-color: blue;
+                }
+            }
+            .boo{
+                text-align: left;
+                h4{
+                    margin: 20px 0px;
+                    font-size: 30px;
+                    span{
+                        color: blue;
+                    }
+                }
+                p{
+                    font-size: 25px;
+                }
+                p:hover{
+                    color: blue;
+                }
+                h5{
+                    color: blue;
+                }
+            }
+        }
+    }
+
+}

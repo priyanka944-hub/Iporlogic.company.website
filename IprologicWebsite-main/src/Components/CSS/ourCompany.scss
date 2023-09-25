@@ -1,0 +1,199 @@
+.our_comapny{
+
+    .about{
+        background-image: url(../Assets/ourcompany_bg.jpg);
+        height: 400px;
+        background-size: cover;
+       background-repeat: no-repeat;
+        .sub{
+            padding: 150px 0px;
+            color: white;
+            height: 400px;
+            background-color: rgba(0, 0, 0,0.6);
+
+            h2{
+                font-size: 45px;
+            }
+        }
+    }
+    .dynamic{
+
+            padding: 200px 200px;
+        .row{
+
+            text-align: left;
+        }
+        .col-6{
+
+            .para{
+                    color: blue;
+                    font-size: 25px;
+            }
+            h3{
+                font-size: 40px;
+            }
+            .paras{
+                color: gray;
+                font-size: 20px;
+                margin-top: 30px;
+            }
+            img{
+                width: 600px;
+                height: 400px;
+            }
+            .btn{
+                border: 2px solid blue;
+                border-radius: 50px;
+                margin-top: 10px;
+                padding: 15px;
+                color: blue;
+                width: 200px;
+            }
+            .btn:hover{
+                color: white;
+                background-color: blue;
+            }
+        }
+        .our{
+            margin-top: 40px;
+
+            .num{
+                color: blue;
+                font-size: 35px;
+            }
+            p{
+                font-size: 20px;
+                color: gray;
+            }
+        }
+    }
+    .project{
+
+        background-image: url(../Assets/ourcompany_bg2.jpg);
+        height: 400px;
+
+        .number{
+            height: 400px;
+            background-color: rgba(0, 0, 0,0.8);
+            .row{
+                padding: 100px 200px;
+                .col-3{
+                    h3{
+                        font-size: 50px;
+                        color: white;
+                    }
+                    .icon{
+                        font-size: 70px;
+                        color: blue;
+                    }
+                    p{
+                        color: gray;
+                        font-size: 25px;
+                       }
+                }
+            }
+            
+        }
+
+    }
+
+    .team{
+
+        padding: 100px 200px;
+        .our{
+            p{
+                color: blue;
+                font-size: 25px;
+            }
+            h2{
+                font-size: 50px;
+            }
+        }
+        .memb{
+
+            margin-top: 50px;
+        }
+    }
+
+    .client{
+
+        margin-top: 100px;
+        text-align: left;
+        padding: 0px 200px;
+        font-size: 20px;
+        .sub{
+            text-align: center;
+            .para{
+                color: blue;
+            }
+    
+        }
+       
+        .carousel{
+
+            margin-top: 50px;
+           
+        }
+    }
+
+
+    .last{
+        padding: 100px 200px;
+        .row{
+            .bos{
+                text-align: left;
+                h4{
+                    margin: 20px 0px;
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 20px;
+                }
+                p:hover{
+                    color: blue;
+                }
+            }
+            .boss{
+                text-align: left;
+                h4{
+                    margin: 20px 0px;
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 20px;
+                    color: gray;
+                }
+                .btn{
+                    margin-top: 20px;
+                    background-color: rgb(59, 59, 254);
+                    color: white;
+                    border: none;
+                }
+                .btn:hover{
+                    background-color: blue;
+                }
+            }
+            .boo{
+                text-align: left;
+                h4{
+                    margin: 20px 0px;
+                    font-size: 30px;
+                    span{
+                        color: blue;
+                    }
+                }
+                p{
+                    font-size: 25px;
+                }
+                p:hover{
+                    color: blue;
+                }
+                h5{
+                    color: blue;
+                }
+            }
+        }
+    }
+
+
+}

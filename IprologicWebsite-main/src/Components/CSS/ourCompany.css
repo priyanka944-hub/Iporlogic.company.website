@@ -1,0 +1,166 @@
+.our_comapny .about {
+  background-image: url(../Assets/ourcompany_bg.jpg);
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.our_comapny .about .sub {
+  padding: 150px 0px;
+  color: white;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.our_comapny .about .sub h2 {
+  font-size: 45px;
+}
+.our_comapny .dynamic {
+  padding: 200px 200px;
+}
+.our_comapny .dynamic .row {
+  text-align: left;
+}
+.our_comapny .dynamic .col-6 .para {
+  color: blue;
+  font-size: 25px;
+}
+.our_comapny .dynamic .col-6 h3 {
+  font-size: 40px;
+}
+.our_comapny .dynamic .col-6 .paras {
+  color: gray;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.our_comapny .dynamic .col-6 img {
+  width: 600px;
+  height: 400px;
+}
+.our_comapny .dynamic .col-6 .btn {
+  border: 2px solid blue;
+  border-radius: 50px;
+  margin-top: 10px;
+  padding: 15px;
+  color: blue;
+  width: 200px;
+}
+.our_comapny .dynamic .col-6 .btn:hover {
+  color: white;
+  background-color: blue;
+}
+.our_comapny .dynamic .our {
+  margin-top: 40px;
+}
+.our_comapny .dynamic .our .num {
+  color: blue;
+  font-size: 35px;
+}
+.our_comapny .dynamic .our p {
+  font-size: 20px;
+  color: gray;
+}
+.our_comapny .project {
+  background-image: url(../Assets/ourcompany_bg2.jpg);
+  height: 400px;
+}
+.our_comapny .project .number {
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.our_comapny .project .number .row {
+  padding: 100px 200px;
+}
+.our_comapny .project .number .row .col-3 h3 {
+  font-size: 50px;
+  color: white;
+}
+.our_comapny .project .number .row .col-3 .icon {
+  font-size: 70px;
+  color: blue;
+}
+.our_comapny .project .number .row .col-3 p {
+  color: gray;
+  font-size: 25px;
+}
+.our_comapny .team {
+  padding: 100px 200px;
+}
+.our_comapny .team .our p {
+  color: blue;
+  font-size: 25px;
+}
+.our_comapny .team .our h2 {
+  font-size: 50px;
+}
+.our_comapny .team .memb {
+  margin-top: 50px;
+}
+.our_comapny .client {
+  margin-top: 100px;
+  text-align: left;
+  padding: 0px 200px;
+  font-size: 20px;
+}
+.our_comapny .client .sub {
+  text-align: center;
+}
+.our_comapny .client .sub .para {
+  color: blue;
+}
+.our_comapny .client .carousel {
+  margin-top: 50px;
+}
+.our_comapny .last {
+  padding: 100px 200px;
+}
+.our_comapny .last .row .bos {
+  text-align: left;
+}
+.our_comapny .last .row .bos h4 {
+  margin: 20px 0px;
+  font-size: 30px;
+}
+.our_comapny .last .row .bos p {
+  font-size: 20px;
+}
+.our_comapny .last .row .bos p:hover {
+  color: blue;
+}
+.our_comapny .last .row .boss {
+  text-align: left;
+}
+.our_comapny .last .row .boss h4 {
+  margin: 20px 0px;
+  font-size: 30px;
+}
+.our_comapny .last .row .boss p {
+  font-size: 20px;
+  color: gray;
+}
+.our_comapny .last .row .boss .btn {
+  margin-top: 20px;
+  background-color: rgb(59, 59, 254);
+  color: white;
+  border: none;
+}
+.our_comapny .last .row .boss .btn:hover {
+  background-color: blue;
+}
+.our_comapny .last .row .boo {
+  text-align: left;
+}
+.our_comapny .last .row .boo h4 {
+  margin: 20px 0px;
+  font-size: 30px;
+}
+.our_comapny .last .row .boo h4 span {
+  color: blue;
+}
+.our_comapny .last .row .boo p {
+  font-size: 25px;
+}
+.our_comapny .last .row .boo p:hover {
+  color: blue;
+}
+.our_comapny .last .row .boo h5 {
+  color: blue;
+}/*# sourceMappingURL=ourCompany.css.map */

@@ -2,6 +2,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import '../../CSS/pricing.scss'
+import Footer from '../../Footer';
 // import { tfi TfiWand } from "react-icons/tfi";
 
 
@@ -90,37 +91,7 @@ const Pricing = () => {
 </div>
 </div>
 
-<div className='row'>
-<div className='col-md-3 company'>
-<h3>Company</h3>
-<p className='terms'>Terms and Conditions</p>
-<p className='privacy'>Privacy Policy</p>
-<p className='support'>Support</p>
-<p className='faq'>FAQ</p>
-</div>
-
-<div className='col-md-3 link'>
-<h3>Quick Links</h3>
-<p className='about'>About</p>
-<p className='service'>Services</p>
-<p className='blog'>Blogs</p>
-<p className='contact'>Contact</p>
-
-</div>
-
-<div className='col-md-3 subscribe'>
-<h3>Subscribe Us</h3>
-<p>Subscribe to get latest news article and resources</p>
-<input type='text' placeholder='Subscribe Now...'></input>
-<button>Subscribe</button>
-</div>
-
-<div className='col-md-3 kit'>
-<h3>Mega<span >kit</span></h3>
-<p>Support@megakit.com</p>
-<p className='number'>+23-456-6588</p>
-</div>
-</div>
+<Footer/>
 
       
     </div>

@@ -6,6 +6,7 @@ import image2 from "../../Assets/blog-bottom-2.jpg";
 import image3 from "../../Assets/blog-bottom-3.jpg";
 import image4 from "../../Assets/blog-bottom-4.jpg";
 import * as Icon from "react-bootstrap-icons";
+import Footer from "../../Footer";
 
 export default function BlogGrid() {
   return (
@@ -107,6 +108,7 @@ export default function BlogGrid() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

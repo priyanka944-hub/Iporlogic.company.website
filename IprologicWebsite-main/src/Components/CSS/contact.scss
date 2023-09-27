@@ -1,0 +1,134 @@
+.bg-1 {
+    background: url(../Assets/home-2.jpg) no-repeat 40% 40%;
+    background-size: cover;
+    color: rgba(0, 0, 0, 0.65);
+}
+.page-title{
+    padding: 100px ;
+}
+.page-title {
+    position: relative;
+}
+section{
+    display: block;
+}
+.container1{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-14{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.text-center {
+    text-align: center!important;
+}
+.text-white {
+    color: #fff!important;
+    font-size: 25px;
+}
+.page-title .block h1 {
+    color: #fff;
+}
+ .text-lg {
+    font-size:50px;
+}
+.text-capitalize {
+    text-transform: capitalize!important;
+}
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 0.5rem;
+}
+
+.list-inline-item {
+    display: inline-block;
+}
+.text-white {
+    color: #fff!important;
+}
+
+a {
+    text-decoration: none;
+}
+.text{
+    color: white;
+    
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+}
+.span{
+    margin-left: 124px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: larger;
+}
+.contact{
+    margin-left: 120px;
+    font-size:200%;
+}
+.Get{
+    margin-left: 50px;
+    font-size:300%;
+}
+.container .row .btn{
+    background-color:lightcoral;
+    // padding: 10px;
+    // margin: 10px;
+    color: white;
+}
+.container .row .btn:hover{
+background-color: #F52626;
+}
+// .container .row .li{
+//     font-size: medium;
+//     list-style:none;
+// }
+.container .row .ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    font-size: larger;
+}
+.container .row .p:hover{
+    color: #F52626;
+    text-decoration-line: none;
+}
+  .a {
+    color:white;
+    text-decoration: none;
+}
+  a:hover{
+    color: red;
+}
+.container .row .icon{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}

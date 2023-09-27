@@ -1,0 +1,337 @@
+.pricing{
+    margin-bottom: 500px;
+    
+      .price{
+          background-image: url(../Assets/cropp.PNG);
+          background-size: cover;
+          
+          
+         
+          
+          .heading{
+            text-align: left;
+            color: white;
+              padding: 250px 200px;
+              background-color:rgba(0, 0, 0, 0.6);
+              
+             
+               h6{
+                  margin-left: 400px;
+                  font-size: 20px ;
+               }
+  
+              h1{
+                  margin-left: 300px;
+                  font-size: 70px;
+                  font-weight: 700;
+              }
+              a{
+                  margin-left: 400px;
+                  font-size: 20px;
+                  color: red;  
+                  text-decoration: none;
+              }
+          }
+    
+      }
+      .content{
+          margin-top: 200px;
+          margin-left: 90px;
+          // margin-right: 50px;
+          h6{
+              color: red;
+          }
+          h2{
+            width: 400px;
+          }
+          h4{
+              margin-top: 30px;
+              font-weight: bold;
+              width: 300px;
+              margin-left: 30px;
+          }
+          p{
+              margin-left: 30px;
+              width: 250px;
+          }
+      }
+    
+      .mid-content{
+          .color{
+              height: 1500px;
+              width: 100%;
+              background-color: rgb(228, 216, 216);
+          
+          .image{
+              background-image: url(../Assets/home-5.jpg);
+              background-size: cover;
+               height: 600px; 
+              width: 100%;
+              background-color:rgba(0, 0, 0, 0.2);
+              margin-top: 150px;
+              
+              .heading-1{
+                  padding-top: 100px;
+                  color:white;
+                  h1{
+                      width: 500px;
+                      margin-left: 400px;
+                  }
+                 
+              }
+                  
+              
+               
+      
+              .card-1{
+                  height: 600px;
+                  width: 300px;
+                   border: solid;
+                    margin-top:150px  ;
+                    margin-left: 150px;
+                  background-color: white;
+                  border: none;
+                 
+               padding-top: 70px;
+               h5{
+                  margin-top: 60px;
+               }
+               button{
+                  margin-top: 20px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  padding-top: 5px;
+                  padding-bottom: 5px;
+                  border-radius: 20px;
+                  border-color: gray;
+                  border: none;
+               }
+               button:hover{
+                  background-color: rgb(245, 93, 93);
+               }
+                  
+              }
+              .card-2{
+                  height: 600px;
+                  width: 300px;
+                  border: solid ;
+                   margin-top: 150px;
+                    margin-left: 50px;
+                  background-color: white;
+                  border: none;
+                 
+               padding-top: 70px;
+               h5{
+                  margin-top: 60px;
+               }
+               button{
+                  margin-top: 20px;
+                  padding-left: 25px;
+                  padding-right: 25px;
+                  padding-top: 5px;
+                  padding-bottom: 5px;
+                  border-radius: 20px;
+                  border-color: gray;
+                  border: none;
+                  background-color: rgb(248, 69, 69);
+                  color: white;
+               }
+               button:hover{
+                 opacity: 0.6;
+               }
+              }
+              
+              .card-3{
+                  height: 600px;
+                  width: 300px;
+                  border: solid ;
+                    margin-top:150px  ;
+                    margin-left: 50px;
+                  background-color: white;
+                  border: none;
+                 
+               padding-top: 70px;
+               h5{
+                  margin-top: 60px;
+               }
+               button{
+                  margin-top: 20px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  padding-top: 5px;
+                  padding-bottom: 5px;
+                  border-radius: 20px;
+                  border-color: gray;
+                  border: none;
+               }
+               button:hover{
+                  background-color: rgb(245, 93, 93);
+               }
+                  
+              }
+              
+              
+          }
+          .image-2{
+              background-image: url(../Assets/counter.jpg);
+              background-size: cover;
+               height: 250px; 
+               margin-top: 100px;
+               margin-left: 150px;
+               margin-right: 150px;
+              
+              
+              // margin-top: 100px;
+              .image-content{
+                   
+                padding-left: 100px;
+                padding-right: 100px;
+                padding-bottom: 50px;
+                padding-top: 50px;
+                 
+                 
+                 
+                  .red{
+      color: red;
+      font-size: 15px;
+      
+      
+                  }
+                  .black{
+                   font-size: 30px;  
+                   font-weight: bold;
+                   width: 500px;
+                   
+                      
+                  }
+                  
+              }
+              button{
+                  background-color: rgb(236, 62, 62);
+                  border: none;
+                  color:white;
+                   margin-top: 90px;
+                  padding-left: 40px;
+                  padding-right: 40px;
+                  padding-top: 15px;
+                  padding-bottom:15px;
+                  border-radius: 25px;
+                  font-weight: bold;
+                      
+              }
+              button:hover{
+                  background-color: rgb(177, 49, 49);
+              }
+          }
+      }
+  } 
+  
+  .company{
+    margin-top: 75px;
+
+p{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+   
+}
+ .terms{
+     margin-left: 30px;
+ }
+.privacy{
+    margin-right: 20px;
+}
+.support{
+    margin-right: 50px;
+}
+.faq{
+    margin-right: 70px;  
+}
+}
+.link{
+    margin-top: 75px;
+
+p{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+   
+}
+.about{
+    margin-right: 80px; 
+}
+.service{
+margin-right: 70px;
+}
+.blog{
+    margin-right: 80px;
+}
+.contact{
+    margin-right: 65px; 
+}
+}
+.subscribe{
+    margin-top: 75px;
+
+p{
+    margin-top: 20px;
+    
+    color: black;
+   
+}
+input{
+   
+    border-width: 1px;
+    //  border-color: rgb(247, 243, 243);
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     border: 1px solid rgba(238, 224, 224, 0.6);
+}
+
+     input:focus
+     {
+        border:1px solid rgba(255, 0, 0, 0.87)
+      }
+    
+button{
+margin-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: rgb(243, 49, 49);
+color: white;
+border: none;
+margin-right: 100px;
+}
+}
+
+
+
+.kit{
+margin-top: 55px;
+
+h3{
+margin-top: 20px;
+color: black;
+
+}
+span{
+color: red;
+}
+p{
+font-weight: bold;
+}
+.number{
+color: red;
+
+}
+}
+    
+     
+  
+  
+     
+  }

@@ -2,7 +2,7 @@
   
   
     .serve{
-        background-image: red;
+        background-image: url(../Assets/cropp.PNG);
         background-size: cover;
         
         
@@ -62,7 +62,7 @@
         
     
     .image2{
-        background-image: red;
+        background-image: url(../Assets/counter.jpg);
         background-size: cover;
          height: 250px; 
          margin-top: 50px;
@@ -73,7 +73,7 @@
 
 
         .image-content{
-             
+         
           padding-left: 100px;
           padding-right: 100px;
           padding-bottom: 50px;
@@ -83,8 +83,8 @@
            
            
             .red{
-color: red;
-font-size: 15px;
+                color: red;
+                font-size: 15px;
 
 
             }

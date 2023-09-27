@@ -1,0 +1,163 @@
+.services .serve {
+  background-image: red;
+  background-size: cover;
+}
+.services .serve .heading {
+  text-align: left;
+  color: white;
+  padding: 250px 200px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.services .serve .heading h6 {
+  margin-left: 400px;
+  font-size: 20px;
+}
+.services .serve .heading h1 {
+  margin-left: 300px;
+  font-size: 70px;
+  font-weight: 700;
+}
+.services .serve .heading a {
+  margin-left: 400px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.services .content {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 200px;
+}
+.services .content h6 {
+  margin-top: 100px;
+  color: red;
+}
+.services .content .heading1 {
+  margin-top: 50px;
+  width: 300px;
+  margin-left: 80px;
+}
+.services .content .desktop {
+  color: gray;
+  margin-right: 30px;
+}
+.services .content .image2 {
+  background-image: red;
+  background-size: cover;
+  height: 250px;
+  margin-top: 50px;
+}
+.services .content .image2 .image-content {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.services .content .image2 .image-content .red {
+  color: red;
+  font-size: 15px;
+}
+.services .content .image2 .image-content .black {
+  font-size: 30px;
+  font-weight: bold;
+}
+.services .content .image2 button {
+  background-color: rgb(236, 62, 62);
+  border: none;
+  color: white;
+  margin-top: 90px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+.services .content .image2 button:hover {
+  background-color: rgb(177, 49, 49);
+}
+.services .content .company {
+  margin-top: 75px;
+}
+.services .content .company p {
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+}
+.services .content .company .terms {
+  margin-left: 30px;
+}
+.services .content .company .privacy {
+  margin-right: 20px;
+}
+.services .content .company .support {
+  margin-right: 50px;
+}
+.services .content .company .faq {
+  margin-right: 70px;
+}
+.services .content .link {
+  margin-top: 75px;
+}
+.services .content .link p {
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+}
+.services .content .link .about {
+  margin-right: 80px;
+}
+.services .content .link .service {
+  margin-right: 70px;
+}
+.services .content .link .blog {
+  margin-right: 80px;
+}
+.services .content .link .contact {
+  margin-right: 65px;
+}
+.services .content .subscribe {
+  margin-top: 75px;
+}
+.services .content .subscribe p {
+  margin-top: 20px;
+  color: black;
+}
+.services .content .subscribe input {
+  border-width: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgba(238, 224, 224, 0.6);
+}
+.services .content .subscribe input:focus {
+  border: 1px solid rgba(255, 0, 0, 0.87);
+}
+.services .content .subscribe button {
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(243, 49, 49);
+  color: white;
+  border: none;
+  margin-right: 100px;
+}
+.services .content .kit {
+  margin-top: 55px;
+}
+.services .content .kit h3 {
+  margin-top: 20px;
+  color: black;
+}
+.services .content .kit span {
+  color: red;
+}
+.services .content .kit p {
+  font-weight: bold;
+}
+.services .content .kit .number {
+  color: red;
+}/*# sourceMappingURL=services.css.map */

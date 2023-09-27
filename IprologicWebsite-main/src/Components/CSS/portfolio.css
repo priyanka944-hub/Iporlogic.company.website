@@ -1,0 +1,179 @@
+.portfolio .port {
+  background-image: red;
+  background-size: cover;
+  width: 100%;
+}
+.portfolio .port .heading {
+  text-align: left;
+  color: white;
+  padding: 250px 200px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.portfolio .port .heading h6 {
+  margin-left: 400px;
+  font-size: 20px;
+}
+.portfolio .port .heading h1 {
+  margin-left: 300px;
+  font-size: 70px;
+  font-weight: 700;
+}
+.portfolio .port .heading a {
+  margin-left: 400px;
+  font-size: 20px;
+  color: red;
+  text-decoration: none;
+}
+.portfolio .content {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.portfolio .content h6 {
+  margin-top: 100px;
+  color: red;
+}
+.portfolio .content h1 {
+  width: 550px;
+  margin-left: 300px;
+}
+.portfolio .images {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+.portfolio .images .image1 {
+  width: 400px;
+  height: 300px;
+}
+.portfolio .images .image1:hover {
+  opacity: 0.4;
+  transition: 1s;
+}
+.portfolio .images .image2 {
+  width: 400px;
+  height: 300px;
+  margin-top: 30px;
+}
+.portfolio .images .image2:hover {
+  opacity: 0.4;
+  transition: 1s;
+}
+.portfolio .images .image3 {
+  width: 400px;
+  height: 300px;
+}
+.portfolio .images .image3:hover {
+  opacity: 0.4;
+  transition: 1s;
+}
+.portfolio .images .image4 {
+  width: 400px;
+  height: 300px;
+  margin-top: 30px;
+}
+.portfolio .images .image4:hover {
+  opacity: 0.4;
+  transition: 1s;
+}
+.portfolio .images .image5 {
+  width: 400px;
+  height: 300px;
+}
+.portfolio .images .image5:hover {
+  opacity: 0.4;
+  transition: 1s;
+}
+.portfolio .images .image6 {
+  width: 400px;
+  height: 300px;
+  margin-top: 30px;
+}
+.portfolio .images .image6:hover {
+  opacity: 0.4;
+  transition: 1s;
+}
+.portfolio .footer {
+  margin-bottom: 200px;
+}
+.portfolio .footer .company {
+  margin-top: 75px;
+}
+.portfolio .footer .company p {
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+}
+.portfolio .footer .company .terms {
+  margin-left: 30px;
+}
+.portfolio .footer .company .privacy {
+  margin-right: 20px;
+}
+.portfolio .footer .company .support {
+  margin-right: 50px;
+}
+.portfolio .footer .company .faq {
+  margin-right: 70px;
+}
+.portfolio .footer .link {
+  margin-top: 75px;
+}
+.portfolio .footer .link p {
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+}
+.portfolio .footer .link .about {
+  margin-right: 80px;
+}
+.portfolio .footer .link .service {
+  margin-right: 70px;
+}
+.portfolio .footer .link .blog {
+  margin-right: 80px;
+}
+.portfolio .footer .link .contact {
+  margin-right: 65px;
+}
+.portfolio .footer .subscribe {
+  margin-top: 75px;
+}
+.portfolio .footer .subscribe p {
+  margin-top: 20px;
+  color: black;
+}
+.portfolio .footer .subscribe input {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgba(238, 224, 224, 0.6);
+}
+.portfolio .footer .subscribe button {
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(243, 49, 49);
+  color: white;
+  border: none;
+  margin-right: 100px;
+}
+.portfolio .footer .kit {
+  margin-top: 55px;
+}
+.portfolio .footer .kit h3 {
+  margin-top: 20px;
+  color: black;
+}
+.portfolio .footer .kit span {
+  color: red;
+}
+.portfolio .footer .kit p {
+  font-weight: bold;
+}
+.portfolio .footer .kit .number {
+  color: red;
+}/*# sourceMappingURL=portfolio.css.map */

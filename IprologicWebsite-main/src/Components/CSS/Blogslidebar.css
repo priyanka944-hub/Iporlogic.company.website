@@ -1,5 +1,5 @@
 .blog-home .blog-container {
-  background-image: url("../Assets/home-2.jpg");
+  background-image: url("../Assets/home_bg.jpg");
   background-size: cover;
   height: 450px;
   width: 100%;
@@ -19,59 +19,23 @@
 .blog-home .bottom-blog {
   background-color: #f5f8f9;
 }
-.blog-home .bottom-blog .blogsingle-cards {
+.blog-home .bottom-blog .blog-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  gap: 30px;
+  gap: 10px;
 }
-.blog-home .bottom-blog .blogsingle-cards .para {
-  font-size: 20px;
+.blog-home .bottom-blog .blog-cards h4 {
+  cursor: pointer;
 }
-.blog-home .bottom-blog .blogsingle-cards .content {
-  font-size: 15px;
+.blog-home .bottom-blog .blog-cards h4:hover {
+  color: red;
 }
 .blog-home .bottom-blog .blog-card-info {
   background-color: #f5f8f9;
   width: 80%;
   margin: auto;
-}
-.blog-home .bottom-blog .post-section {
-  width: 650px;
-  margin: auto;
-  background-color: white;
-  display: flex;
-  padding: 30px;
-  align-items: center;
-  margin-bottom: 20px;
-}
-.blog-home .bottom-blog .post-section .left-post {
-  width: 50%;
-  text-align: left;
-}
-.blog-home .bottom-blog .post-section .right-post {
-  width: 50%;
-  text-align: right;
-}
-.blog-home .bottom-blog .comment-section {
-  width: 650px;
-  margin: auto;
-  background-color: white;
-  text-align: left;
-  padding: 30px;
-  margin-bottom: 30px;
-}
-.blog-home .bottom-blog .write-comment {
-  width: 650px;
-  margin: auto;
-  background-color: white;
-  text-align: left;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin-bottom: 30px;
 }
 .blog-home .blog-search {
   padding-top: 45px;
@@ -125,4 +89,4 @@
   border-radius: 20px;
   padding: 5px;
   margin: 2px;
-}/*# sourceMappingURL=Blogsingle.css.map */
+}/*# sourceMappingURL=Blogslidebar.css.map */

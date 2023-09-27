@@ -36,4 +36,9 @@
   background-color: #f5f8f9;
   width: 80%;
   margin: auto;
+}
+
+.nav-links {
+  display: flex;
+  align-items: flex-start;
 }/*# sourceMappingURL=blog.css.map */

@@ -7,6 +7,7 @@ import image3 from "../../Assets/blog-bottom-3.jpg";
 import image4 from "../../Assets/blog-bottom-4.jpg";
 import image5 from "../../Assets/blog-sidebar.jpg";
 import * as Icon from "react-bootstrap-icons";
+import Footer from "../../Footer";
 
 export default function Blogsingle() {
   return (
@@ -254,6 +255,7 @@ export default function Blogsingle() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "../../CSS/blog.scss";
 import { Link } from "react-router-dom";
-import image1 from "../../Assets/blog-bottom-1.jpg"
+import image1 from "../../Assets/blog-bottom-1.jpg";
 import image2 from "../../Assets/blog-bottom-2.jpg";
 import image3 from "../../Assets/blog-bottom-3.jpg";
 import image4 from "../../Assets/blog-bottom-4.jpg";
@@ -22,7 +22,10 @@ export default function BlogGrid() {
             >
               Home
             </Link>
-            <span style={{color:"#6b686c"}}className="line-bright"> / Our blog</span>
+            <span style={{ color: "#6b686c" }} className="line-bright">
+              {" "}
+              / Our blog
+            </span>
           </div>
         </div>
       </div>
@@ -44,7 +47,12 @@ export default function BlogGrid() {
                 Non illo quas blanditiis repellendus laboriosam minima animi.
                 Consectetur accusantium pariatur repudiandae!
               </p>
-              <button className="btn btn-danger" style={{borderRadius:"20px"}}>Learn more</button>
+              <button
+                className="btn btn-danger"
+                style={{ borderRadius: "20px" }}
+              >
+                Learn more
+              </button>
             </div>
           </div>
           <div style={{ backgroundColor: "white" }}>
@@ -63,7 +71,12 @@ export default function BlogGrid() {
                 Non illo quas blanditiis repellendus laboriosam minima animi.
                 Consectetur accusantium pariatur repudiandae!
               </p>
-              <button className="btn btn-danger" style={{borderRadius:"20px"}}>Learn more</button>
+              <button
+                className="btn btn-danger"
+                style={{ borderRadius: "20px" }}
+              >
+                Learn more
+              </button>
             </div>
           </div>
         </div>
@@ -84,7 +97,12 @@ export default function BlogGrid() {
                 Non illo quas blanditiis repellendus laboriosam minima animi.
                 Consectetur accusantium pariatur repudiandae!
               </p>
-              <button className="btn btn-danger" style={{borderRadius:"20px"}}>Learn more</button>
+              <button
+                className="btn btn-danger"
+                style={{ borderRadius: "20px" }}
+              >
+                Learn more
+              </button>
             </div>
           </div>
           <div style={{ backgroundColor: "white" }}>
@@ -103,9 +121,28 @@ export default function BlogGrid() {
                 Non illo quas blanditiis repellendus laboriosam minima animi.
                 Consectetur accusantium pariatur repudiandae!
               </p>
-              <button className="btn btn-danger" style={{borderRadius:"20px"}}>Learn more</button>
+              <button
+                className="btn btn-danger"
+                style={{ borderRadius: "20px" }}
+              >
+                Learn more
+              </button>
             </div>
           </div>
+        </div>
+        <div className="d-flex justify-content-center gap-4">
+          <span class="prev page-numbers" href="a">
+            Prev
+          </span>
+          <span aria-current="page" class="page-numbers current">
+            1
+          </span>
+          <span class="page-numbers" href="b">
+            2
+          </span>
+          <span class="next page-numbers" href="b">
+            Next
+          </span>
         </div>
       </div>
       <Footer/>

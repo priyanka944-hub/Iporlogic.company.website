@@ -23,7 +23,10 @@ export default function Blogsingle() {
             >
               Home
             </Link>
-            <span style={{color:"#6b686c"}} className="line-bright"> / New details</span>
+            <span style={{ color: "#6b686c" }} className="line-bright">
+              {" "}
+              / New details
+            </span>
           </div>
         </div>
       </div>
@@ -71,7 +74,7 @@ export default function Blogsingle() {
                   className="d-flex justify-content-between align-items-center"
                   style={{ width: "100%" }}
                 >
-                  <div style={{textAlign:"left"}}>
+                  <div style={{ textAlign: "left" }}>
                     <div>Tags:</div>
                     <div className="d-flex gap-2">
                       <p>Advancher</p>
@@ -84,11 +87,75 @@ export default function Blogsingle() {
                     <Icon.Facebook />
                     <Icon.Twitter />
                     <Icon.Pinterest />
-                    <Icon.Google/>
+                    <Icon.Google />
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+          <div className="post-section">
+            <div className="left-post">
+              <span> - Previous post</span>
+              <h5>Donec consectetuer ligula vulputate sem tristique.</h5>
+            </div>
+            <div className="right-post">
+              <span> - Next post</span>
+              <h5>Ut aliquam sollicitudin leo.</h5>
+            </div>
+          </div>
+          <div className="comment-section">
+            <h3>2 Comments</h3>
+            <div className="d-flex flex-column gap-5">
+              <div className="d-flex flex-column gap-2">
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="d-flex gap-2">
+                    <img
+                      src="https://demo.themefisher.com/megakit/images/blog/test1.jpg"
+                      alt="icon"
+                    />
+                    <div className="d-flex flex-column">
+                      <b>Philip W</b>
+                      <span>United Kingdom</span>
+                    </div>
+                  </div>
+                  <p>Reply | Posted October 7, 2018</p>
+                </div>
+                <div>
+                  Some consultants are employed indirectly by the client via a
+                  consultancy staffing company, a company that provides
+                  consultants on an agency basis.
+                </div>
+              </div>
+              <div className="d-flex flex-column gap-2">
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="d-flex gap-2">
+                    <img
+                      src="https://demo.themefisher.com/megakit/images/blog/test2.jpg"
+                      alt="icon"
+                    />
+                    <div className="d-flex flex-column">
+                      <b>Philip W</b>
+                      <span>United Kingdom</span>
+                    </div>
+                  </div>
+                  <p>Reply | Posted October 7, 2018</p>
+                </div>
+                <div>
+                  Some consultants are employed indirectly by the client via a
+                  consultancy staffing company, a company that provides
+                  consultants on an agency basis.
+                </div>
+              </div>
+            </div>
+            <div></div>
+          </div>
+          <div className="write-comment">
+            <h5>Write a comment</h5>
+            <div className="d-flex justify-content-center gap-5">
+              <input type="text" placeholder="Name:" className="col"/>
+              <input type="text" placeholder="Email:" className="col"/>
+            </div>
+            <textarea style={{width:"100%",padding:"10px"}} placeholder="Comment"></textarea>
           </div>
         </div>
         <div className="blog-search">
@@ -192,4 +259,3 @@ export default function Blogsingle() {
     </div>
   );
 }
-

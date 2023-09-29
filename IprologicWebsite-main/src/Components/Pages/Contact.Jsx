@@ -5,9 +5,10 @@ import {HiOutlineMail} from 'react-icons/hi';
 import {HiOutlinePhone} from 'react-icons/hi';
 import {FiFacebook,FiInstagram, FiLinkedin} from 'react-icons/fi';
 import { Link } from 'react-router-dom';
+import Footer from '../Footer';
 const Contact = () => {
   return (
-    <div>
+    
       <>
     <section className='page-title bg-1'>
       <div className='container1'>
@@ -95,36 +96,7 @@ const Contact = () => {
          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3806.3087486765785!2d78.3818507148771!3d17.444930488044175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDI2JzQxLjgiTiA3OMKwMjMnMDIuNSJF!5e0!3m2!1sen!2sin!4v1685022198803!5m2!1sen!2sin" width={"100%"}  height={"430"} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe>
          </div><br/><br/><br/><br/>
          <div className='container'>
-         <div className='row'>
-           <div className='col-12 col-sm-3 col-md-3 col-lg-3'>
-             <h4>Company</h4>
-             <p className='p'></p>
-             <p className='p'>Privacy Policy</p>
-             <p className='p'>Support</p>
-             <p className='p'>FAQ</p>
-           </div>
-           <div className='col-12 col-sm-2 col-md-2 col-lg-2'>
-             <h4 className='p'><a>Quick Links</a></h4>
-             <p className='p'>About</p>
-             <p className='p'>Services</p>
-             <p className='p'>Blog</p>
-             <p className='p'>Contact</p>
-           </div>
-           <div className='col-12 col-sm-3 col-md-3 col-lg-3'>
-            <h4>Subscribe Us</h4>
-            <p>Subscribe to get latest news article and resources</p>
-            <input type='text'
-         className='form-control'
-         placeholder='Subscribe Now'/>
-         <button className='mt-3 btn'>SUBSCRIBE</button>
-        </div>
-        <div className='col-12 col-sm-3 col-md-3 col-lg-3'>
-          <h4>Iprologicsoftware</h4>
-          {/* <p><a href="mailto:info@iprologicsoftware.com">info@iprologicsoftware.com</a></p> */}
-          <p>info@iprologicsoftware.com</p>
-          <p className='p'> 7337298283</p>
-        </div>
-      </div>
+         <Footer/>
       <br/><hr></hr>
       <div className='row'>
         <div className='col-12  col-sm-6 col-md-6 col-lg-6'>
@@ -144,8 +116,8 @@ const Contact = () => {
          </div>
       </div>
      </>
-    </div>
+    
   )
 }
 
-export default Contact
+export default Contact;

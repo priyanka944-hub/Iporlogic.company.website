@@ -20,7 +20,7 @@ import BSubmenu01 from "./Pages/BlogPages/BSubmenu01";
 import BSubmenu02 from "./Pages/BlogPages/BSubmenu02";
 
 import Career from "./Pages/Careers";
-import Contact from "./Pages/Contact.Jsx";
+import Contact from  "./Pages/Contact";
 
 
 
@@ -128,7 +128,7 @@ export default function Header() {
               <Route path="/submenu-blog-02"  element={< BSubmenu02/>}/>
 
           <Route path="/career" element={<Career />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact/>} />
          
        
         </Routes>
